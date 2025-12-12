@@ -1,0 +1,23 @@
+[project]
+name = "implementing-speculative-decoding"
+version = "0.1.0"
+description = "A research implementation of baseline and speculative decoding using Hugging Face Transformers"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "torch",
+    "transformers",
+    "numpy",
+    "scipy",
+    "matplotlib"
+]
+
+# Tell Python what the actual importable packages are
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["specdec", "specdec.*"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
