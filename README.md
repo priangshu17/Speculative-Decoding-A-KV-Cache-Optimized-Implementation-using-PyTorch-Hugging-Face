@@ -1,0 +1,2 @@
+# Speculative-Decoding-A-KV-Cache-Optimized-Implementation-using-PyTorch-Hugging-Face
+A modular and research-grade implementation of baseline and speculative decoding for encoder–decoder transformer models using PyTorch and Hugging Face. Includes KV-cache optimized speculative decoding, experiment harness, speedup benchmarking, fidelity metrics (JS divergence, α), and plots comparing classical vs speculative inference.
