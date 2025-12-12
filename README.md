@@ -131,7 +131,9 @@ pip install -e .
 ```
 
 ### 2. Run the Experiments harness
+```bash
 python experiments/run_experiment.py
+```
 
 ### 3. View Results
 Plots and logs appear under:
